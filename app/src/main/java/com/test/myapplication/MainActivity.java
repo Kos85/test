@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void process() {
         System.out.println(getText());
+        Log.i("test", "test");
 
     }
 
