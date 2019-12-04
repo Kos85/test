@@ -14,12 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         process();
-
+        Log.i("test", "test");
 
     }
 
     private void process() {
         System.out.println(getText());
+
     }
 
     private String getText() {
