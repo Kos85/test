@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         Log.i("==>", "Hello World");
     }
 
-    private void process() { System.out.println(getText());
+    private void process() { Log.i("==>", "Hello World");
+    System.out.println(getText());
     }
 
     private String getText() {
